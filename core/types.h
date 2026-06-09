@@ -31,6 +31,8 @@ struct Order {
     uint8_t _pad[6];
     ClientId client_Id;
     uint64_t timestamp;
+    Order* prev = nullptr;
+    Order* next = nullptr;
 };
 
-static_assert(sizeof(Order) == 56, "Order layer structure changed -- check padding");
+static_assert(sizeof(Order) == 72, "Order layer structure changed -- check padding");

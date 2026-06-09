@@ -25,3 +25,6 @@ struct Op {
     int index;
     int value;
 };
+
+// TODO: add poison/canary values on release() (debug builds)
+// TODO: add bitset occupancy tracking for double-free detection
