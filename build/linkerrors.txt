@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-06-08T19:33:06.669Z
+Total Errors: 1
+================================================================================
+
+[LNK4044] (MSVC)
+unrecognized option '/mconsole'; ignored [C:\Users\timot\OneDrive\Desktop\Portfolio\Order Book\build\OrderBook.vcxproj]

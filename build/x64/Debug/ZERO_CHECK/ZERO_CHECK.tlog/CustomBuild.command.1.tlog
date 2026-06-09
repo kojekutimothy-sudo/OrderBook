@@ -1,0 +1,10 @@
+^C:\USERS\TIMOT\ONEDRIVE\DESKTOP\PORTFOLIO\ORDER BOOK\BUILD\CMAKEFILES\2CBBF998603BBC82B68B5C21DA67A1FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/timot/OneDrive/Desktop/Portfolio/Order Book" "-BC:/Users/timot/OneDrive/Desktop/Portfolio/Order Book/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/timot/OneDrive/Desktop/Portfolio/Order Book/build/OrderBook.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
